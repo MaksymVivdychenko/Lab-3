@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-html, body {
-    min-width: 600px; /* мінімальна ширина сторінки */
-}
 
 div{
     display: flex;
@@ -55,6 +52,7 @@ div{
 
 .upper-text-div
 {
+    display: block;
     height: 11%;
     width: 100%;
     background-color: lightblue;
@@ -62,10 +60,8 @@ div{
 
 .middle-text-div
 {
+    display: block;
     height: 89%;
     width: 100%;
     background-color: yellow;
-}
-p {
-    line-height: 1em;
 }
